@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    tools:context=".WelcomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:background="@color/red"
+        android:padding="100dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="300dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/goToLogin"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/goToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="14dp"
+        android:text="SignUp"/>
+
+</LinearLayout>
