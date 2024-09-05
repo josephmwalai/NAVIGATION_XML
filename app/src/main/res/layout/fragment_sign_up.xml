@@ -20,6 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signupUsername"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:hint="Username"
         android:padding="16dp"
         android:background="@drawable/edittext_border"/>
@@ -28,6 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signupPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:hint="Password"
         android:padding="16dp"
         android:layout_marginTop="18dp"
@@ -40,6 +44,8 @@
         android:id="@+id/signupButton"
         android:padding="16dp"
         android:textSize="20sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:text="SIGNUP"
         android:layout_marginTop="25dp"/>
 

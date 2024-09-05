@@ -5,26 +5,19 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
+    android:gravity="center"
     android:layout_gravity="center"
+    android:background="@drawable/background"
     tools:context=".WelcomeFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:text="Welcome"
-        android:textStyle="bold"
-        android:background="@color/red"
-        android:padding="100dp"
-        android:textColor="@color/white"
-        android:layout_marginBottom="300dp"
-        android:gravity="center"/>
 
     <Button
         android:id="@+id/goToLogin"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="Login"
         android:textSize="30sp"/>
     <Button
@@ -32,6 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:textSize="30sp"
         android:layout_marginTop="14dp"
         android:text="SignUp"/>
