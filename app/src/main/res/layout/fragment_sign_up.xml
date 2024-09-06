@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
+    android:background="@drawable/background"
     tools:context=".SignUpFragment">
 
     <LinearLayout
@@ -25,14 +26,34 @@
         android:hint="Username"
         android:padding="16dp"
         android:background="@drawable/edittext_border"/>
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupPhoneNumber"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="16dp"
+        android:hint="Phonenumber"
+        android:background="@drawable/edittext_border"
+        android:layout_marginTop="18dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signupPassword"
+        android:layout_marginTop="18dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:hint="Password"
+        android:padding="16dp"
+        android:background="@drawable/edittext_border"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupConfirmPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Confirm Password"
         android:padding="16dp"
         android:layout_marginTop="18dp"
         android:inputType="textPassword"
